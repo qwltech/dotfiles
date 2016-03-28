@@ -1,0 +1,10 @@
+# Ignore Everything
+*
+
+# Except for the gitignore file
+!.gitignore
+
+# And except for...
+!/.Xresources*
+!/.inputrc
+!/.vimrc

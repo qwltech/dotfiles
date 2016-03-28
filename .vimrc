@@ -1,0 +1,52 @@
+" Personal .vimrc file. Note that vim first executes the system rc file,
+" located at /etc/vim/vimrc before executing this rc file. It is very often
+" instructive to see what is in /etc/vim/vimrc so you know what customizations
+" have been applied by the vendor of your OS.
+
+set nocompatible " Turn off legacy Vi compatibility (this is first because it sets many options)
+
+" Colour schemes and such
+syntax enable             " syntax highlighting
+colorscheme solarized     " Ahh, solarized. http://ethanschoonover.com/solarized
+call togglebg#map("<F5>") " Press F5 to toggle Solarized light/dark
+
+" Search options
+set hlsearch   " highlight matches, for better or worse
+set incsearch  " incremental search: jump to results as search is typed out
+set ignorecase " case-insensitive search...
+set smartcase  " ...unless the search pattern contains uppercase!
+
+" Tab options
+set expandtab    " when a tab is typed, write the appropriate number of spaces instead
+set tabstop=4    " displayed width of tabs that are in files despite expandtab
+set shiftwidth=4 " size of autoindent steps
+
+set mouse=a
+set hidden    " not really sure what this does, even after reading the help
+set noswapfile
+
+" Display options
+set number " show line numbers
+set ruler  " show cursor position
+set showbreak=> " show > symbol on wrapped line
+set showcmd " show command as it's being typed
+set showmatch  " show matching brackets
+
+" Bottom of screen options
+set laststatus=2 " show status line, even if there is only one window
+set wildmenu     " enhanced autocompletion
+
+" type \cc to save and compile LaTeX
+autocmd FileType tex map <Leader>cc :w \| !pdflatex %<CR>
+
+" type \cc to save and compile SCSS
+autocmd FileType scss map <Leader>cc :w \| !compass compile<CR>
+
+" type \mm to make
+map <Leader>mm :w \| :make<CR>
+
+" don't treat <> as match in PHP
+autocmd FileType php set matchpairs-=<:>
+
+" type \ga to add this file to the current git repo
+map <Leader>ga :w \| :!git add %<CR>

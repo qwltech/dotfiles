@@ -1,0 +1,9 @@
+Xft.antialias: true
+
+! hinting: false, hintslight, hintmedium, hintfull
+Xft.hinting: false
+
+! Subpixel antialiasing mode
+Xft.rgba: rgb
+
+! vim: filetype=xdefaults

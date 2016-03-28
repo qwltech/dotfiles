@@ -1,0 +1,24 @@
+! Top-level Xresources file
+
+! General options:
+
+! blink text cursor. hearken back to the good old days
+*cursorBlink: true
+
+! nothing happens without this line (XTerm-only?)
+*customization: -color
+
+! Flash screen instead of beeping
+*visualBell: true
+
+#include ".Xresources-VT100"
+#include ".Xresources-Xft"
+#include ".Xresources-URxvt"
+
+! Solarized Color Scheme
+
+! Uncomment for Solarized Light theme
+! #define SOLARIZED_LIGHT
+#include ".Xresources-solarized"
+
+! vim: filetype=xdefaults
