@@ -60,19 +60,19 @@ XTerm*color14:                 S_base1
 XTerm*color15:                 S_base3
 
 ! Color Scheme for URxvt
-URxvt.background:              [95]S_base03
+URxvt.background:              S_base03
 URxvt.foreground:              S_base0
 URxvt.cursorColor:             S_base1
 URxvt.pointerColorBackground:  S_base0
 URxvt.pointerColor:            S_base03
-URxvt.color0:                  [95]S_base02
+URxvt.color0:                  S_base02
 URxvt.color1:                  S_red
 URxvt.color2:                  S_green
 URxvt.color3:                  S_yellow
 URxvt.color4:                  S_blue
 URxvt.color5:                  S_magenta
 URxvt.color6:                  S_cyan
-URxvt.color8:                  [95]S_base03
+URxvt.color8:                  S_base03
 URxvt.color7:                  S_base2
 URxvt.color9:                  S_orange
 URxvt.color10:                 S_base01
@@ -84,8 +84,8 @@ URxvt.color15:                 S_base3
 
 ! Extras
 URxvt.depth:                   32
-URxvt.fading:                  25
-URxvt.fadeColor:               [50]S_base03
+URxvt.fading:                  33
+URxvt.fadeColor:               [0]S_base03
 URxvt.scrollColor:             S_base0
 URxvt.troughColor:             S_base03
 URxvt.tabbed.tabbar-bg:        0
