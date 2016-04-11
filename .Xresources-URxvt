@@ -5,6 +5,7 @@ URxvt.geometry: 80x40
 URxvt.scrollBar: false
 
 ! Set URxvt default extensions
-URxvt.perl-ext-common: tabbed
+! URxvt.perl-ext-common: tabbed
+URxvt.perl-ext-common:
 
 ! vim: filetype=xdefaults 
