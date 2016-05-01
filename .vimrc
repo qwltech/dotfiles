@@ -10,6 +10,10 @@ syntax enable             " syntax highlighting
 colorscheme solarized     " Ahh, solarized. http://ethanschoonover.com/solarized
 call togglebg#map("<F5>") " Press F5 to toggle Solarized light/dark
 
+" Turn on filetype detection, plugins for specific filetypes, and indenting
+" for specific filetypes
+filetype plugin indent on
+
 " Search options
 set hlsearch   " highlight matches, for better or worse
 set incsearch  " incremental search: jump to results as search is typed out
