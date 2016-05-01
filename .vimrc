@@ -54,3 +54,5 @@ autocmd FileType php set matchpairs-=<:>
 
 " type \ga to add this file to the current git repo
 map <Leader>ga :w \| :!git add %<CR>
+
+execute pathogen#infect()
