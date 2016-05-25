@@ -84,8 +84,8 @@ URxvt.color15:                 S_base3
 
 ! Extras
 URxvt.depth:                   32
-URxvt.fading:                  25
-URxvt.fadeColor:               [0]#000000
+URxvt.fading:                  15
+URxvt.fadeColor:               [0]S_base03
 URxvt.scrollColor:             S_base0
 URxvt.troughColor:             S_base03
 URxvt.tabbed.tabbar-bg:        0
