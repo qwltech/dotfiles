@@ -8,10 +8,7 @@ URxvt.scrollBar: false
 ! URxvt.perl-ext-common: tabbed
 URxvt.perl-ext-common:
 
-! A whole bunch of keybindings to change fonts on the fly
-URxvt.keysym.M-C-g: command:\033]710;6x13\007
-URxvt.keysym.M-C-c: command:\033]710;7x14\007
-URxvt.keysym.M-C-r: command:\033]710;9x15\007
-URxvt.keysym.M-C-l: command:\033]710;10x20\007
-URxvt.keysym.M-C-slash: command:\033]710;12x24\007
+URxvt.letterSpace: -1
+URxvt.font: xft:Source Code Pro
+URxvt.boldFont: xft:Source Code Pro Black
 ! vim: filetype=xdefaults 
