@@ -6,4 +6,5 @@ Xft.hinting: false
 ! Subpixel antialiasing mode
 Xft.rgba: rgb
 
+Xft.dpi: 101.6
 ! vim: filetype=xdefaults
