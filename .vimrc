@@ -43,6 +43,7 @@ set nowrap " don't wrap lines
 set number " show line numbers
 set ruler  " show cursor position
 set showbreak= " prepend nothing to continuation lines
+set linebreak
 set showcmd " show command as it's being typed
 set showmatch  " show matching brackets
 
