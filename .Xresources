@@ -19,6 +19,7 @@
 
 ! Uncomment for Solarized Light theme
 ! #define SOLARIZED_LIGHT
-#include ".Xresources-solarized"
+
+! #include ".Xresources-solarized"
 
 ! vim: filetype=xdefaults
