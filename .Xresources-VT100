@@ -9,13 +9,13 @@
 *vt100.allowBoldFonts: true
 
 ! truetype font
-! *vt100.faceName: Inconsolata
-*vt100.faceSize: 10
-*vt100.faceSize1: 6
-*vt100.faceSize2: 8
-*vt100.faceSize3: 12
-*vt100.faceSize4: 16
-*vt100.faceSize5: 20
-*vt100.faceSize6: 24
+*vt100.faceName: Source\ Code\ Pro
+*vt100.faceSize: 16
+*vt100.faceSize1: 9
+*vt100.faceSize2: 12
+*vt100.faceSize3: 20
+*vt100.faceSize4: 24
+*vt100.faceSize5: 28
+*vt100.faceSize6: 36
 
 ! vim: filetype=xdefaults
