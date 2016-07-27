@@ -6,5 +6,7 @@ Xft.hinting: hintnone
 ! Subpixel antialiasing mode
 Xft.rgba: rgb
 
-Xft.dpi: 101.6
+! This scales the font somehow.
+! Xft.dpi: 101.6
+
 ! vim: filetype=xdefaults
