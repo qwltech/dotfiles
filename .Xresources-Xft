@@ -1,7 +1,7 @@
 Xft.antialias: true
 
-! hinting: false, hintslight, hintmedium, hintfull
-Xft.hinting: false
+! hintnone, hintslight, hintmedium, hintfull
+Xft.hinting: hintnone
 
 ! Subpixel antialiasing mode
 Xft.rgba: rgb
