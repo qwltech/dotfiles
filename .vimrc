@@ -30,9 +30,19 @@ set hidden    " not really sure what this does, even after reading the help
 set noswapfile
 
 " Display options
+"
+" Philosophy on setting nowrap: combined with a terminal that switches font
+" sizes easily, like GNOME terminal, this allows us to get used to the
+" horizontal and vertical structure of a codebase, without having to re-learn
+" what the code looks like every time the terminal width changes. Now, we can
+" set wrap where it's really needed, like text files.
+
+set list " enable display of nonprinting chars.
+set listchars=tab:\|+,trail:_ " |+++ for a tab, _ for trailing space
+set nowrap " don't wrap lines
 set number " show line numbers
 set ruler  " show cursor position
-set showbreak=> " show > symbol on wrapped line
+set showbreak= " prepend nothing to continuation lines
 set showcmd " show command as it's being typed
 set showmatch  " show matching brackets
 
